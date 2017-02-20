@@ -1,5 +1,6 @@
 var intents = {
-    getStockPrice: require("./DEMO-getStockPrice")
+    about: require("./about"),
+    AmazonCancel: require("./Amazon-CancelIntent")
 };
 
 
