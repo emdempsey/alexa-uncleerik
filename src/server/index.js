@@ -10,10 +10,6 @@ var app = express();
 app.use(bodyParser.json());
 require('./routes-prod').configure(app);
 
-if (env.startsWith("dev")) {
-    require('./routes-dev').configure(app);
-}
-
 app.use("/alexa/tools", express.static("node_modules/utterance-builder-gui/www"));
 
 // Start the web server on the specified port
