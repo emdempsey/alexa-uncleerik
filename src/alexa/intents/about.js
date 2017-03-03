@@ -15,7 +15,7 @@ intent.handler = function(request, response) {
     var msg = "";
     var delay = "1000ms";
     var endSession = true;
-    var audioUrl = "https://fdc3a395.ngrok.io/audio/";
+    var audioUrl = "https://alexa-uncleerik.azurewebsites.net/audio/";
 
     if(name === "Malachi"){
         audioUrl += "Malachi.mp3";
